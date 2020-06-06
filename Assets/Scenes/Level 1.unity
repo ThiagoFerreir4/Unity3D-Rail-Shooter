@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 1027033941}
-  lookAheadForTargetOffset: 2
+  lookAheadForTargetOffset: 5
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
@@ -735,6 +735,23 @@ Transform:
   m_Father: {fileID: 1027033940}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1509771144 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1872991620608462, guid: 70570f54ce7c78b4c90a2f85f59a0fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1435860197}
+--- !u!114 &1509771145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509771144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc45e9c306c0b0d47ac8f859ea0d27ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpeed: 4
 --- !u!4 &1509771147 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4754100243411882, guid: 70570f54ce7c78b4c90a2f85f59a0fdf,
