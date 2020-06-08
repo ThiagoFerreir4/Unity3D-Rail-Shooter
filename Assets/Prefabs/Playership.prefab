@@ -49,7 +49,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1400095373303794
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 198090221378079190}
   - component: {fileID: 199406411122066188}
   m_Layer: 0
-  m_Name: Bullets
+  m_Name: Bullets_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 198997761664213578}
   - component: {fileID: 199413602236963716}
   m_Layer: 0
-  m_Name: Bullets
+  m_Name: Bullets_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4671887009379492}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4671887009379492
 Transform:
@@ -107,8 +107,8 @@ Transform:
   m_LocalPosition: {x: -0, y: -1.6, z: 8.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4855304496054414}
   - {fileID: 4597815216213700}
+  - {fileID: 4855304496054414}
   - {fileID: 4768993212068010}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -137,7 +137,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4671887009379492}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23000568457590832
 MeshRenderer:
@@ -317,6 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelLoadDelay: 1
+  deathFX: {fileID: 1226260761729260}
 --- !u!198 &198090221378079190
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -377,7 +378,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1895578441
+  randomSeed: -1671447683
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7011,7 +7012,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 958077296
+  randomSeed: 1746910807
   InitialModule:
     serializedVersion: 3
     enabled: 1
